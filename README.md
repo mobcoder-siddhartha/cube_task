@@ -14,6 +14,7 @@ The main features of this project include:
 
 - **React.js**: For building the user interface.
 - **Three.js**: For creating and displaying the 3D cube.
+- **MUI**: For creating the slider to rotate the cube.
 
 ## Steps to Run the Project
 

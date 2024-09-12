@@ -4,7 +4,7 @@ import { useThree, useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
 export const Cube = () => {
-    const colors = ["Teal", "Turquoise", "Orange", "Tan", "hotpink", "Olive"]
+    const colors = ["Teal", "Turquoise", "Orange", "Violet", "hotpink", "Olive"]
     const cubeRef = useRef();
     const { camera, scene } = useThree();
     const raycaster = new THREE.Raycaster();

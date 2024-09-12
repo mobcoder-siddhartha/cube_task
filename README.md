@@ -32,8 +32,7 @@ The main features of this project include:
 3. **Run the Project**
 
     Start the development server:
-    ``` bash
-    npm start
+    run the command - npm start
 
     The project should now be running on http://localhost:3000 (or the port specified by your configuration).
 

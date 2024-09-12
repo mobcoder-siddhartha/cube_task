@@ -26,14 +26,17 @@ The main features of this project include:
 
  Navigate into the project directory and install the necessary dependencies:
 
-    ## cd your-repository
-    ## npm install
+    ```bash
+    cd your-repository
+    npm install
+    ```
 
 3. **Run the Project**
 
     Start the development server:
-
-    ##- npm start
+   ```bash
+        npm start
+    ```    
 
     The project should now be running on http://localhost:3000 (or the port specified by your configuration).
 

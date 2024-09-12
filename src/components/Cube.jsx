@@ -10,7 +10,7 @@ export const Cube = ({ rotationY }) => {
     const raycaster = new THREE.Raycaster();
     const pointer = new THREE.Vector2();
 
-    // Handle mouse click
+    // handle mouse click event
     const handleClick = (event) => {
         pointer.x = (event.clientX / window.innerWidth) * 2 - 1;
         pointer.y = -(event.clientY / window.innerHeight) * 2 + 1;
@@ -41,7 +41,7 @@ export const Cube = ({ rotationY }) => {
         <>
             <OrbitControls />
             <mesh ref={cubeRef}>
-                <boxGeometry args={[2, 2, 2]} /> {/* Adjusted size */}
+                <boxGeometry args={[2, 2, 2]} />
                 {colors.map((color, i) => <meshStandardMaterial key={i} attach={`material-${i}`} color={color} />)}
             </mesh>
         </>

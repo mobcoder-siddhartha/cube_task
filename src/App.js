@@ -8,7 +8,7 @@ import Box from '@mui/material/Box';
 function App() {
     const [rotationY, setRotationY] = useState(0);
 
-    const handleSliderChange = (event, newValue) => {
+    const handleSliderChange = (e, newValue) => {
         setRotationY(newValue);
     };
 

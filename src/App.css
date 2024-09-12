@@ -4,9 +4,3 @@
   margin: 0; /* Ensure no margin around the root */
   overflow: hidden; /* Prevent scrollbars */
 }
-
-/* Add this to App.css or inline style for debugging */
-.slider {
-  background-color: yellow; /* Temporary color for debugging */
-  border: 1px solid red; /* Temporary border for debugging */
-}
